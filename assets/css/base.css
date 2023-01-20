@@ -7,6 +7,7 @@
     --star-gold-color: #f3ce3e;
 
     --header-height:120px;
+    --header-sort-bar-height: 46px;
     --navbar-height: 34px;
     --header-with-search-height: calc(var(--header-height) - var(--navbar-height));
 }
@@ -24,16 +25,6 @@ html {
 }
 
 /* Responsive */
-.grid {
-    width: 1200px;
-    max-width: 100%;
-    margin: 0 auto;
-}
-
-.grid__full-with {
-    width: 100px;
-}
-
 .grid__row {
     display: flex;
     flex-wrap: wrap;
